@@ -2,9 +2,9 @@
 	ini_set('display_errors', 1);
 	
 	include_once("usuarioColector.php");
-	$UsuarioObj = new usuarioColector();
-	
-	//echo "id eliminar. ".$_GET["id"];
+	$uCollector = new usuarioColector();
+	$usuario = new usuario();
+	$usuario_info = new usuario_info();
 	
 	if(isset($_GET["id"]))
 	{    

@@ -83,7 +83,6 @@
 	
 	public function delete($id)
 	{
-		echo "llego a delete".$id; 
 		try
 		{
 			self::execQuery("DELETE FROM usuario_info WHERE u_usuario=".$id);
@@ -126,12 +125,22 @@
 		}
 	} 
 	
+	public function consultarRol()
+	{
+		return self::read('rol','Rol'); 
+	}
+	
 	public function consultarRolePorId($id)
 	{
 		$stmt = $this->con->prepare("SELECT * FROM rol WHERE r_id=:id");
 		$stmt->execute(array(":id"=>$id));
 		$role=$stmt->fetchObject("rol");
 		return $role;
+	}
+	
+	public function consultarDiscapacidadInfo()
+	{
+		return self::read('discapacidad_info','discapacidad_info'); 
 	}
 	
 	public function consultarDiscapacidadInfoPorId($id)
