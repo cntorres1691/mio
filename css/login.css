@@ -10,6 +10,14 @@ body {
 	margin: 0;
 	 background: #369;
 }
+
+.fondo {
+  height: auto;
+  width: auto;
+	margin: 0;
+	 background: #5C53FF;
+}
+
 .logo{
 margin: 0 auto;
 }
@@ -17,6 +25,12 @@ margin: 0 auto;
 a {
 	font-size: 40px;
 	color: #fff;
+	font-family: 'Lato', Calibri, Arial, sans-serif;
+}
+
+.link {
+	font-size: 30px;
+	color: #100151;
 	font-family: 'Lato', Calibri, Arial, sans-serif;
 }
 
