@@ -113,6 +113,7 @@ if (datefield.type!="date"){ //if browser doesn't support input type="date", ini
 
 		<label>Porcentaje de Discapacidad:</label>
 		<select id="porcentaje_discapacidad" class="textbox" name="porcentaje_discapacidad">
+				<option value="0%">0%</option>
 				<option value="10%">10%</option>
 				<option value="20%">20%</option>
 				<option value="30%">30%</option>
