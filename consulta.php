@@ -19,7 +19,7 @@ ini_set('display_errors', 1);
      <body class="fondo" id="page-top">
 	 <a href="login.html">+ACCESO</a>     
 	 <div class="container">
-        <table border="2" cellpadding="5" cellspacing="5" >
+        <table>
           <?php
           
             foreach ($UsuarioObj->consultarUsuario() as $c) {
@@ -62,7 +62,7 @@ ini_set('display_errors', 1);
             ?>
           <br>
           <tr>
-            <td colspan=4><a class="link" href="index.php">Crear Usuario</a></td>
+            <td colspan=14><a class="link" href="index.php">Crear Usuario</a></td>
           </tr>
           
 </table>
