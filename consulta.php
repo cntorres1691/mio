@@ -19,7 +19,7 @@ ini_set('display_errors', 1);
      <body class="fondo" id="page-top">
 	 <a href="login.html">+ACCESO</a>     
 	 <div class="container">
-        <table border="1" cellpadding="2" cellspacing="4" >
+        <table border="2" cellpadding="5" cellspacing="5" >
           <?php
           
             foreach ($UsuarioObj->consultarUsuario() as $c) {
@@ -55,14 +55,14 @@ ini_set('display_errors', 1);
 					   <td class="celda"> <?php echo $rol->getNombre(); ?> </td>
 					   
                        <td><a class="link" href="editardemo.php?id=<?php echo $c->getId();?>"> Editar</a>  </td>
-                       <td><a href="eliminar.php?id=<?php echo $c->getId();?>"> Eliminar</a>  </td>
+                       <td><a class="link" href="eliminar.php?id=<?php echo $c->getId();?>"> Eliminar</a>  </td>
                      </tr>
                    <?php
             }
             ?>
-          
+          <br>
           <tr>
-            <td colspan=4><a href="index.php">Crear Usuario</a></td>
+            <td colspan=4><a class="link" href="index.php">Crear Usuario</a></td>
           </tr>
           
 </table>
