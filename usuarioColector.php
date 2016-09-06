@@ -81,11 +81,13 @@
 		}
 	}
 	
-	public function delete($id)
+public function delete($id)
 	{
 		try
 		{
 			self::execQuery("DELETE FROM usuario_info WHERE u_usuario=".$id);
+			self::execQuery("DELETE FROM voto WHERE v_id_usuario=".$id);
+			self::execQuery("DELETE FROM comentario WHERE c_id_usuario=".$id);
 			self::execQuery("DELETE FROM usuario WHERE u_id=".$id);
 			
 			return true; 
