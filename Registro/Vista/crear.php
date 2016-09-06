@@ -1,5 +1,5 @@
 <?php
-	include_once("usuarioColector.php");
+	include_once("../Modelo/usuarioColector.php");
 	$uCollector = new usuarioColector();
 	$usuario = new usuario();
 	$usuario_info = new usuario_info();

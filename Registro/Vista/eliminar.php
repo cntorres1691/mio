@@ -1,7 +1,7 @@
 <?php
 	ini_set('display_errors', 1);
 	
-	include_once("usuarioColector.php");
+	include_once("../Modelo/usuarioColector.php");
 	$UsuarioObj = new usuarioColector();
 	
 	//echo "id eliminar. ".$_GET["id"];

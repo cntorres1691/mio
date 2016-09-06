@@ -1,7 +1,7 @@
 <?php
 	ini_set('display_errors', 1);
 	
-	include_once("usuarioColector.php");
+	include_once("../Modelo/usuarioColector.php");
 	$uCollector = new usuarioColector();
 	$usuario = new usuario();
 	$usuario_info = new usuario_info();

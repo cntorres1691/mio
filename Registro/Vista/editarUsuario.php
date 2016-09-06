@@ -1,6 +1,6 @@
 <?php
 	session_start();
-	include_once("usuarioColector.php");
+	include_once("../Modelo/usuarioColector.php");
 	$UsuarioObj = new usuarioColector();
 	
 	if(isset($_GET["id"]))
