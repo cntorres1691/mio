@@ -26,7 +26,7 @@ ini_set('display_errors', 1);
                 ?>
                     
                      <tr>
-                      <td> <?php echo $c->getId(); ?> </td>
+                      <td class="celda"> <?php echo $c->getId(); ?> </td>
                        <td> <?php echo $c->getUsuario(); ?> </td>
 					   <td> <?php echo $c->getPassword(); ?> </td>
 					   

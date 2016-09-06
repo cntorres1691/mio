@@ -20,6 +20,12 @@ a {
 	font-family: 'Lato', Calibri, Arial, sans-serif;
 }
 
+.celda {
+	font-size: 20px;
+	color: #fff;
+	font-family: 'Lato', Calibri, Arial, sans-serif;
+}
+
 #registro{
 	font-size: 22px;
 	color: #fff;
@@ -349,3 +355,6 @@ form {
 		padding: 10px;
 	}
 }
+
+
+
