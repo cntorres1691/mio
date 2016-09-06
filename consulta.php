@@ -35,7 +35,7 @@ ini_set('display_errors', 1);
 		
 						?>
 						
-						<td class="celda"> <?php echo $usuario_info->getNombre(); ?> </td>
+					   <td class="celda"> <?php echo $usuario_info->getNombre(); ?> </td>
 					   <td class="celda"> <?php echo $usuario_info->getApellidos(); ?> </td>
 					   <td class="celda"> <?php echo $usuario_info->getMail(); ?> </td>
 					   <td class="celda"> <?php echo $usuario_info->getSexo(); ?> </td>					   
